@@ -265,15 +265,15 @@ a {
 }
 
 .bar-status2 {
-    border-color: #A87E21;
-    background-color: #A87E21;
+    border-color: #C0C0C0;
+    background-color: #C0C0C0;
     background-image: none;
     color: #fff;
 }
 
 .bar-status3 {
-    border-color: #802E13;
-    background-color: #802E13;
+    border-color: #FFD700;
+    background-color: #FFD700;
     background-image: none;
     color: #fff;
 }
@@ -281,8 +281,8 @@ a {
 
 .button-status,
 {
-    border-color: #73732E;
-    background-color: #73732E;
+    border-color: #cd7f32;
+    background-color: #cd7f32;
     background-image: none;
     color: #fff;
 }
@@ -290,15 +290,15 @@ a {
 .button-status1,
 .button-status1:hover,
 .button-status1:active {
-    background-color: #73732E;
+    background-color: #cd7f32;
     color: #fff;
 }
 
 .button-status2,
 .button-status2:hover,
 .button-status2:active {
-    border-color: #A87E21;
-    background-color: #A87E21;
+    border-color: #C0C0C0;
+    background-color: #C0C0C0;
     background-image: none;
     color: #fff;
 }
@@ -306,8 +306,8 @@ a {
 .button-status3,
 .button-status3:hover,
 .button-status3:active {
-    border-color: #802E13;
-    background-color: #802E13;
+    border-color: #FFD700;
+    background-color: #FFD700;
     background-image: none;
     color: #fff;
 }
@@ -355,19 +355,19 @@ a {
 }
 
 .status-bar>div:nth-of-type(1) {
-    border-top: solid 2px #73732E;
-    color: #73732E !important;
+    border-top: solid 2px #cd7f32;
+    color: #cd7f32 !important;
 }
 
 .status-bar>div:nth-of-type(2) {
-    border-top: solid 2px #A87E21;
-    color: #A87E21 !important;
+    border-top: solid 2px #C0C0C0;
+    color: #C0C0C0 !important;
     text-align: center;
 }
 
 .status-bar>div:nth-of-type(3) {
-    border-top: solid 2px #802E13;
-    color: #802E13 !important;
+    border-top: solid 2px #FFD700;
+    color: #FFD700 !important;
     text-align: right;
 }
 
@@ -387,27 +387,27 @@ a {
 }
 
 .status1-bg {
-    background: #73732E;
+    background: #cd7f32;
 }
 
 .status2-bg {
-    background: #A87E21;
+    background: #C0C0C0;
 }
 
 .status3-bg {
-    background: #802E13;
+    background: #FFD700;
 }
 
 .status1 {
-    color: #73732E;
+    color: #cd7f32;
 }
 
 .status2 {
-    color: #A87E21;
+    color: #C0C0C0;
 }
 
 .status3 {
-    color: #802E13;
+    color: #FFD700;
 }
 
 .icon-status1 {
