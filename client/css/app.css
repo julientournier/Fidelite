@@ -151,7 +151,7 @@ a {
 }
 
 .menu-left .top-list .item {
-    color: #ffffff;
+    color: #000;
 }
 
 .menu-left .bottom-list .item {
@@ -502,7 +502,7 @@ a {
 
 .menu,
 .menu .item-content {
-    background-color: #69625A;
+    background-color: #FFFFFF;
 }
 
 .menu .item-content {
