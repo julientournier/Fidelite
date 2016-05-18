@@ -89,7 +89,7 @@ angular.module('nibs.profile', ['nibs.s3uploader', 'nibs.config', 'nibs.status']
                     function() {                // callback
                         $state.go('app.messages');
                     },
-                    'Nibs',                     // title
+                    'Points',                     // title
                     'Open Inbox'             // buttonName
                 );
             } else {
