@@ -11,7 +11,7 @@ angular.module('nibs.config', [])
     ])
 
     .constant('STATUS_DESCRIPTIONS', [
-        'Cinéphile Débutant: Vous découvrez l'univers des Cinéma Gaumont Pathé.',
-        'Cinéphile Averti: vous connaissez la différence entre Spielberg et Lucas',
-        'Cinévore: l'univers du cinéma n'a plus de secret pour vous!'
+        'Cinéphile Débutant, vous découvrez l'univers des Cinéma Gaumont Pathé.',
+        'Cinéphile Averti, vous connaissez la différence entre Spielberg et Lucas',
+        'Cinévore, l'univers du cinéma n'a plus de secret pour vous!'
     ]);
