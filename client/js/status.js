@@ -14,7 +14,7 @@ angular.module('nibs.status', [])
             if (data.originalStatus !== data.newStatus) {
                 $rootScope.user.status = data.newStatus;
                 $ionicPopup.show({
-                    title: 'Congratulations, ' + $rootScope.user.firstname + '!',
+                    title: 'Félicitations, ' + $rootScope.user.firstname + '!',
                     template:
                         '<div style="text-align: center" class="status' + data.newStatus + '">' +
                         '<p>vous avez atteint un nouveau statut!</p>' +
