@@ -11,7 +11,7 @@ angular.module('nibs.config', [])
     ])
 
     .constant('STATUS_DESCRIPTIONS', [
-        'Cinéphile Débutant  merci d'avoir choisi les cinémas Gaumont Pathé.',
-        'Cinéphile Averti  vous faites la différence entre Spielberg et Lucas!',
-        'Cinévore le 7ème art n'a plus de sécret pour vous.'
+        'Cinéphile Débutant  merci d'avoir choisi les cinémas Gaumont Pathé',
+        'Cinéphile Averti  vous faites la différence entre Spielberg et Lucas',
+        'Cinévore le 7ème art n'a plus de sécret pour vous'
     ]);
