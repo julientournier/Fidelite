@@ -1,8 +1,8 @@
 angular.module('nibs.config', [])
 
-    .constant('SERVER_URL', null)
+    .constant('SERVER_URL', 'https://pathe-fidelite.herokuapp.com/')
 
-    .constant('FB_APP_ID','1618878675020266')
+    .constant('FB_APP_ID','281831495487220')
 
     .constant('STATUS_LABELS', [
         'Cinéphile Débutant',
