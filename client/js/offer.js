@@ -107,10 +107,16 @@ angular.module('nibs.offer', ['openfb', 'nibs.status', 'nibs.activity', 'nibs.wa
         $scope.saveToWallet = function () {
             WalletItem.create({offerId: $scope.offer.id}).success(function(status) {
                 Status.show('Saved to your wallet!');
+                if ($scope.offer.name == "Evian")
+                {
+                    
+                }else
+                {
                 Activity.create({type: "Saved to Wallet", points: 1000, offerId: $scope.offer.sfid, name: $scope.offer.name, image: $scope.offer.image})
                     .success(function(status) {
                         Status.checkStatus(status);
                     });
+                }
             });
         };
 
