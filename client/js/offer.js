@@ -107,27 +107,29 @@ angular.module('nibs.offer', ['openfb', 'nibs.status', 'nibs.activity', 'nibs.wa
         $scope.saveToWallet = function () {
             WalletItem.create({offerId: $scope.offer.id}).success(function(status) {
                 Status.show('Saved to your wallet!');
-                if ($scope.offer.name == "Evian")
-                {
-                  Activity.create({type: "Saved to Wallet", points: 2000, offerId: $scope.offer.sfid, name: $scope.offer.name, image: $scope.offer.image})
-                    .success(function(status) {
-                        Status.checkStatus(status);
-                    });  
-                }else
-                {
+
                 Activity.create({type: "Saved to Wallet", points: 1000, offerId: $scope.offer.sfid, name: $scope.offer.name, image: $scope.offer.image})
                     .success(function(status) {
                         Status.checkStatus(status);
                     });
-                }
+                
             });
         };
 
         $scope.redeem = function () {
-            Activity.create({type: "Redeemed Offer", points: 1000, offerId: $scope.offer.sfid, name: $scope.offer.name, image: $scope.offer.image})
+            if ($scope.offer.name == "Evian")
+                {
+            Activity.create({type: "Redeemed Offer", points: 2000, offerId: $scope.offer.sfid, name: $scope.offer.name, image: $scope.offer.image})
                 .success(function(status) {
                     Status.checkStatus(status);
                 });
+                }else
+                {
+                Activity.create({type: "Redeemed Offer", points: 1000, offerId: $scope.offer.sfid, name: $scope.offer.name, image: $scope.offer.image})
+                .success(function(status) {
+                    Status.checkStatus(status);
+                });        
+                }
             $state.go('app.offer-redeem', {offerId: $scope.offer.id});
         };
 
